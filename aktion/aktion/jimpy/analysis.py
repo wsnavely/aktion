@@ -9,6 +9,7 @@ import os
 from jimpy.jimple.entity import AssignStmt, InvokeExpr
 from jimpy.jimple.simplebodyparser import SimpleBodyParser
 
+
 def is_assign(stmt):
     return isinstance(stmt, AssignStmt)
 
